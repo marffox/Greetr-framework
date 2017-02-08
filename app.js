@@ -9,7 +9,5 @@ function showMessage() {
   var loginGrtr = G$(firstName, lastName);
   var lang = $('#lang').val();
 
-  // $('#logindiv').hide();
-
   loginGrtr.setLang(lang).HTMLGreeting('#greeting', formal).log();
 };

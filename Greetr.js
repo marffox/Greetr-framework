@@ -3,21 +3,24 @@
 
   'use strict';
 
-  var supportedLangs = ['en', 'es'];
+  var supportedLangs = ['en', 'es', 'fr'];
 
   var greetings = {
     en: 'Hello',
-    es: 'Hola'
+    es: 'Hola',
+    fr: 'Salut'
   };
 
   var formalGreetings = {
     en: 'Greetings',
-    es: 'Saludos'
+    es: 'Saludos',
+    fr: 'Bonjour'
   };
 
   var logMessages = {
     en: 'Logged in',
-    es: 'Inicio de sesion'
+    es: 'Inicio de sesion',
+    fr: 'Connecté'
   };
 
   var Greetr = function(firstName, lastName, language) {

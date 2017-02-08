@@ -1,0 +1,1 @@
+A very simple Greeting framework to say hello in English (by default), Spanish and French
