@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Greetr framework</h1>
+
+      <input id="firstName" type="text" class="details" placeholder="Type your first name">
+      <input id="lastName" type="text" class="details" placeholder="Type your last name">
+      <div class="check-formal">
+        <input type="checkbox" name="formal">
+        <span>Formal greeting</span>
+      </div>
+      <div id="logindiv">
+        <select name="language" id="lang">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+        </select>
+        <input type="button" value="Greet" id="login">
+      </div>
+      <h2 id="greeting"></h2>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="Greetr.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
